@@ -1,4 +1,4 @@
-function Dashboard() {
+function Portfolio() {
   return (
     <>
       <section className='heading justify-center'>
@@ -11,4 +11,4 @@ function Dashboard() {
     </>
   )
 }
-export default Dashboard
+export default Portfolio
