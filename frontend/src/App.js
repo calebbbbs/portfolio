@@ -1,9 +1,9 @@
-import Portfolio from './pages/Portfolio'
+import Landing from './pages/Portfolio'
 function App() {
   return (
     <>
       <div>
-        <Portfolio />
+        <Landing />
       </div>
     </>
   )

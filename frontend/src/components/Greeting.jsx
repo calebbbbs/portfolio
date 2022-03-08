@@ -5,7 +5,7 @@ function Greeting() {
     <Typewriter
       onInit={(typewriter) => {
         typewriter
-          .typeString('Hello welcome to my portfolio.')
+          .typeString('Hello welcome to my portfolio. \n Check out my links below to find my github, socials and contact information!')
           .start()
       }}
     />

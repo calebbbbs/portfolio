@@ -4,7 +4,7 @@ function Enjoy() {
   return (
     <Typewriter
       onInit={(typewriter) => {
-        typewriter.changeCursor('_').pauseFor(5000).start().typeString('I hope you enjoy!').start()
+        typewriter.changeCursor(' ').pauseFor(5000).start().typeString('CR$ I hope you enjoy!').start()
       }}
     />
   )
