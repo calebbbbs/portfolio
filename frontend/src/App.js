@@ -1,17 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Welcome from './pages/Welcome'
 import Portfolio from './pages/Portfolio'
 function App() {
   return (
     <>
-      <Router>
-        <div>
-          <Routes>
-            <Route path='/' element={<Portfolio />} />
-            <Route path='/welcome' element={<Welcome />} />
-          </Routes>
-        </div>
-      </Router>
+      <div>
+        <Portfolio />
+      </div>
     </>
   )
 }
