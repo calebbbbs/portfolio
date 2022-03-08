@@ -2,7 +2,7 @@ import Landing from './pages/Portfolio'
 function App() {
   return (
     <>
-      <div>
+      <div className=''>
         <Landing />
       </div>
     </>
