@@ -1,3 +1,4 @@
+import { SocialIcon } from 'react-social-icons'
 import Greeting from '../components/Greeting'
 // import Enjoy from '../components/Enjoy'
 import Bio from '../components/Bio'
@@ -56,6 +57,14 @@ function Landing() {
           </p>
         </div> */}
       <Bio />
+      <footer className='bg-slate-500'>
+        <div className='button-group flex justify-center gap-4 pt-5'>
+         <SocialIcon url="https://github.com/calebbbbs" />
+          <SocialIcon url="https://www.linkedin.com/in/calebbbbs/"/>
+          <SocialIcon url="https://www.twitter.com/calebbbbs_io" />
+          {/* <a href="" className="btn btn-rounded bg-yellow-500"></a> */}
+        </div>
+      </footer>
     </>
   )
 }
