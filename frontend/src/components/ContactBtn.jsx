@@ -1,20 +1,10 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
 function ContactBtn() {
   const [showButton, setShowButton] = useState(true)
 
   const navigate = useNavigate()
-
-  // useEffect(() => {
-  //   if (showButton === false){
-
-  //   }
-  // })
-
- useEffect(() =>{
-
- })
 
   const onClick = () =>{
     setShowButton(false)
