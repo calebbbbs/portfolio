@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Landing from './pages/Landing'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Resume from './pages/Resume'
+import ContactMe from './pages/ContactMe'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           <Header />
           <Routes>
             <Route path='/' element={<Landing />} />
-            <Route path='resume' element={<Resume />} />
+            <Route path='contact' element={<ContactMe />} />
           </Routes>
           <Footer />
         </div>

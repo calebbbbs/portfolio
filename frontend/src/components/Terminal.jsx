@@ -4,10 +4,10 @@ function Terminal() {
   return (
     <>
       <div className='container mx-auto grid justify-end h-25 w-13 mt-10 border-3 bg-gray-700 bg-opacity-75'>
-        <div className='top-right mb-2 grid justify-end grid-cols-3'>
+        <div className='top-right mt-1 mb-1  grid justify-end grid-cols-3'>
           <div className=''>
             <span className='ml-6 h-6 w-6 text-4xl'>
-              <button classname='ml-6 h-6 w-6 text-4xl'>
+              <button className='ml-6 h-6 w-6 text-4xl'>
                 <strong>-</strong>
               </button>
             </span>

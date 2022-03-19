@@ -4,9 +4,9 @@ function Footer() {
     <>
       <footer className='relative '>
         <div className='absolute inset-x-0 -bottom-10 button-group flex justify-center gap-4 py-5 bg-slate-900'>
+          <SocialIcon url='https://www.twitter.com/calebbbbs_io' />
           <SocialIcon url='https://github.com/calebbbbs' />
           <SocialIcon url='https://www.linkedin.com/in/calebbbbs/' />
-          <SocialIcon url='https://www.twitter.com/calebbbbs_io' />
           <a href='https://docs.google.com/document/d/14yzQ-Obb0IHtBgjTSkaN8LNYYmDLKQnU8ZbbvYE2uBg/edit?usp=sharing'>
             Resume
           </a>
