@@ -3,9 +3,9 @@ function ContactMe() {
     <>
       <div className='container my-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full bg-slate-500'>
         <section className='w-full'>
-          <h2 className='text-5xl pt-8'>Put me to work</h2>
-          <p className='section-paragraph'>
-            Feel free to to contact me any time, through any method below.
+          <h2 className='text-5xl pt-8 text-white text-center'>Put me to work 👨‍💻</h2>
+          <p className='text-input text-center'>
+            Contact me through any of the methods listed below.
           </p>
 
           <div className='w-full grid lg:grid-cols-2 gap-8 lg:gap-32 my-12'>

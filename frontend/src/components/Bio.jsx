@@ -1,7 +1,7 @@
 function Bio() {
   return (
     <>
-      <div className='container mx-auto max-w-lg min-h-min rounded overflow-hidden shadow-lg mb-24 bg-white opacity-90'>
+      <div className='container mx-auto max-w-lg min-h-min rounded overflow-hidden shadow-lg my-24 bg-white opacity-90'>
         <div className='px-2 py-4'>
           <p className='text-left text-2xl text-cyan-500'>
             I am a full-stack JavaScript software engineer making a career
