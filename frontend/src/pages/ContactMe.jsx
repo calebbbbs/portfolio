@@ -14,13 +14,13 @@ function ContactMe() {
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Email
                 </label>
-                <input className='w-full border border-input-border bg-input px-4 py-4 text-white'/>
+                <input className='w-full border border-input-border bg-input px-4 py-4 text-white' />
               </div>
               <div>
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Subject
                 </label>
-                <input className='w-full border border-input-border bg-input px-4 py-4 text-white'/>
+                <input className='w-full border border-input-border bg-input px-4 py-4 text-white' />
               </div>
               <div>
                 <label className='text-white block mb-6 text-xl font-bold'>
@@ -35,16 +35,15 @@ function ContactMe() {
 
             <div className=''>
               <p className='text-white'>Cell: 504-430-4655</p>
-              <p>Email: <a
+              <a
                 href='mailto:caleb.taylor.roberts@gmail.com'
-                className='text-white underline mt-3 block'
+                className='text-white hover:underline mt-3 block'
               >
-                caleb.taylor.roberts@gmail.com
+                <p>Email: caleb.taylor.roberts@gmail.com</p>
               </a>
-              </p>
               <a
                 href='https://docs.google.com/document/d/14yzQ-Obb0IHtBgjTSkaN8LNYYmDLKQnU8ZbbvYE2uBg/edit?usp=sharing'
-                className='text-white underline mt-3 block'
+                className='text-white hover:underline mt-3 block'
               >
                 Resume
               </a>
