@@ -1,7 +1,7 @@
 function ContactMe() {
   return (
     <>
-      <div className='container my-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full bg-slate-500'>
+      <div className='container my-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-auto bg-slate-500'>
         <section className='w-full'>
           <h2 className='text-5xl pt-8 text-white text-center'>Put me to work 👨‍💻</h2>
           <p className='text-input text-center'>
