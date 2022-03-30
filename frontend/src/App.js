@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className='mx-auto'>
+        <div className='mx-auto dark:bg-slate-900'>
           <Header />
           <Routes>
             <Route path='/' element={<Landing />} />
