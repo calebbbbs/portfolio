@@ -3,11 +3,11 @@ import image1 from '../assets/caleb.jpg'
 function Bio() {
   return (
     <>
-      <div className='bg-gray-300 box'>
-        <div className='box-border mx-auto max-w-2xl rounded overflow-hidden shadow-lg bg-white opacity-90'>
+      <div className='bg-gray-300 dark:bg-slate-900 box'>
+        <div className='box-border mx-auto max-w-2xl rounded overflow-hidden shadow-lg bg-white dark:bg-slate-900 opacity-90'>
           <div className='px-2 py-4'>
             <img src={image1} alt="TwitterProPic" className='float-left rounded-full scale-75'/>
-            <p className='text-lg text-slate-700 text-left break-words'>
+            <p className='text-lg text-slate-700 dark:text-slate-400 text-left break-words'>
               I am a full-stack JavaScript software engineer making a career
               change from the hospitality industry. I am passionate about creating
               dynamic user experiences and learning new technologies. I want to
