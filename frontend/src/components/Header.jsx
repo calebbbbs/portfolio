@@ -23,13 +23,17 @@ function Header() {
         <header className='container mx-auto flex flex-row'>
           <Link
             to='/'
-            className='flex-none text-5xl font-bold text-cyan-900 py-6 font-poppins'
+            className='flex-row text-5xl font-bold text-slate-300 py-6 font-poppins'
             onClick={onClick}
           >
             Caleb Roberts
           </Link>
-          <Switch />
-          {showButton === true && <ContactBtn />}
+          <div className='container object-right'>
+            <div className='flex flex-col items-end p-3'>
+              {showButton === true && <ContactBtn />}
+              <Switch />
+            </div>
+          </div>
         </header>
       </section>
     </>
