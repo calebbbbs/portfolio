@@ -10,7 +10,7 @@ function Landing() {
   return (
     <>
       {/* <Terminal /> */}
-      <div className='bg-gray-300 box py-24'>
+      <div className='bg-gray-300 dark:bg-gray-900 box py-24'>
         <Bio />
       </div>
       <div className='box flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-auto bg-slate-500'>
