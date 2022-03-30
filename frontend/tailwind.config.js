@@ -13,6 +13,9 @@ module.exports = {
         'input-border': '#565666',
         'input': '#2A2A35',
       },
+      backgroundImage: {
+        'little-rock': "url('assets/untitled-1-2.jpg')"
+      },
     },
     FontFamily: {
       'poppins': ["'Poppins'", 'sans-serif'],

@@ -1,10 +1,11 @@
 import image1 from '../assets/caleb.jpg'
+// import untitled from '../assets/untitled-1-2.jpg'
 
 function Bio() {
   return (
     <>
-      <div className='bg-gray-300 dark:bg-slate-900 box'>
-        <div className='box-border mx-auto max-w-2xl rounded overflow-hidden shadow-lg bg-white dark:bg-slate-900 opacity-90'>
+      <div className='box'>
+        <div className='box-border mx-auto max-w-2xl rounded overflow-hidden shadow-lg bg-white dark:bg-slate-900 opacity-80'>
           <div className='px-2 py-4 flex flex-wrap'>
             <p className='text-xl text-slate-700 dark:text-slate-400 text-right'>
             <img src={image1} alt="TwitterProPic" className='float-left rounded-full text-wrap h-40 w-40 m-6'/>

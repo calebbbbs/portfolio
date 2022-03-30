@@ -1,4 +1,5 @@
 import Bio from '../components/Bio'
+// import LittleRock from '../assets/untitled-1-2.jpg';
 // import Terminal from '../components/Terminal'
 // import ContactMe from './ContactMe'
 // import {useState} from 'react'
@@ -10,7 +11,7 @@ function Landing() {
   return (
     <>
       {/* <Terminal /> */}
-      <div className='bg-slate-300 dark:bg-slate-900 box py-24'>
+      <div className='bg-little-rock bg-center bg-cover dark:bg-slate-900 box py-24'>
         <Bio />
       </div>
       <div className='box flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-auto bg-slate-500 dark:bg-slate-900'>
