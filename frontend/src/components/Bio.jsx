@@ -4,7 +4,7 @@ import image1 from '../assets/caleb.jpg'
 function Bio() {
   return (
     <>
-      <div className='box'>
+      <div className='box dark:grayscale-0'>
         <div className='box-border mx-auto max-w-2xl rounded overflow-hidden shadow-lg bg-white dark:bg-black opacity-80'>
           <div className='px-2 py-4 flex flex-wrap'>
             <p className='text-xl text-slate-700 dark:text-slate-400 text-right'>

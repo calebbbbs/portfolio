@@ -2,13 +2,13 @@ import { SocialIcon } from 'react-social-icons'
 function Footer() {
   return (
     <>
-      <footer className='footer'>
-        <div className='inset-x-0 button-group flex justify-center gap-4 py-5 bg-slate-900 dark:bg-black'>
-          <SocialIcon url='https://www.twitter.com/calebbbbs_io' bgColor='#1D9BF0'/>
-          <SocialIcon url='https://github.com/calebbbbs' bgColor='#F0F6FC'/>
-          <SocialIcon url='https://www.linkedin.com/in/calebbbbs/' bgColor='#0A66C2'/>
+      <footer className='footer mx-auto relative left-0 bottom-0 right-0'>
+        <ul className='py-10 button-group flex justify-center gap-4 bg-slate-900 dark:bg-black'>
+          <li><SocialIcon url='https://www.twitter.com/calebbbbs_io' bgColor='#1D9BF0'/></li>
+          <li><SocialIcon url='https://github.com/calebbbbs' bgColor='#F0F6FC'/></li>
+          <li><SocialIcon url='https://www.linkedin.com/in/calebbbbs/' bgColor='#0A66C2'/></li>
           {/* <a href="" className="btn btn-rounded bg-yellow-500"></a> */}
-        </div>
+        </ul>
       </footer>
     </>
   )

@@ -11,15 +11,15 @@ function Landing() {
   return (
     <>
       {/* <Terminal /> */}
-      <div className='bg-little-rock bg-center bg-cover dark:bg-black box py-24'>
+      <div className='bg-little-rock bg-center bg-cover dark:grayscale box py-24'>
         <Bio />
       </div>
-      <div className='box flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-auto bg-slate-500 dark:bg-black'>
+      <div className='box flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-auto bg-slate-700 dark:bg-black'>
         <section className='w-full'>
           <h2 className='text-5xl pt-8 text-white text-center'>
             Put me to work 👨‍💻
           </h2>
-          <p className='text-input text-center dark:text-[#9a30cf]'>
+          <p className='text-secondary text-center dark:text-[#9a30cf]'>
             Contact me through any of the methods listed below.
           </p>
 
@@ -43,7 +43,7 @@ function Landing() {
                 </label>
                 <textarea className='w-full border border-input-border bg-input dark:bg-gray-400 text-white dark:text-black px-4 py-4 h-56 resize-none' name='yourMessage'></textarea>
               </div>
-              <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-600 hover:brightness-100 duration-300 px-6 py-3 bg-input dark:bg-[#9a30cf] dark:hover:bg-[#9a30cf] dark:hover:shadow-[#9a30cf]/80 dark:shadow-[#9a30cf]/80 text-white font-bold' type='submit'>
+              <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-600 hover:brightness-100 duration-300 px-6 py-3 bg-input dark:bg-[#9a30cf] dark:hover:bg-[#9a30cf] dark:hover:shadow-[#9a30cf]/50 dark:shadow-[#9a30cf]/20 shadow-lg text-white font-bold' type='submit'>
                 Send it!
               </button>
             </div>
