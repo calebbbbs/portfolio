@@ -19,11 +19,11 @@ function Header() {
   }
   return (
     <>
-      <section className='heading justify-center bg-slate-900'>
+      <section className='heading justify-center bg-slate-900 dark:bg-black'>
         <header className='container mx-auto flex flex-row'>
           <Link
             to='/'
-            className='flex-row text-5xl font-bold text-slate-300 py-6 font-poppins'
+            className='flex-row text-5xl font-bold text-slate-300 dark:text-[#9a30cf] py-6 font-poppins dark:brightness-125'
             onClick={onClick}
           >
             Caleb Roberts

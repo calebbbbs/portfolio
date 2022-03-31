@@ -5,7 +5,7 @@ function Bio() {
   return (
     <>
       <div className='box'>
-        <div className='box-border mx-auto max-w-2xl rounded overflow-hidden shadow-lg bg-white dark:bg-slate-900 opacity-80'>
+        <div className='box-border mx-auto max-w-2xl rounded overflow-hidden shadow-lg bg-white dark:bg-black opacity-80'>
           <div className='px-2 py-4 flex flex-wrap'>
             <p className='text-xl text-slate-700 dark:text-slate-400 text-right'>
             <img src={image1} alt="TwitterProPic" className='float-left rounded-full text-wrap h-40 w-40 m-6'/>
