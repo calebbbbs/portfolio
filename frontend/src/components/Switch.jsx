@@ -15,12 +15,12 @@ function Switch() {
 
   return (
     <>
-      <div className='flex flex-col'>
-        <div className='flex flex-col pt-12 top-5 -right-20'>
+      <div className='flex justify-center pr-8 relative'>
+        <div className='flex flex-row dark:text-white text-slate-300 text-2xl'>
           <DarkModeToggle
             checked={darkMode}
             onChange={toggleDarkMode}
-            size={56}
+            size={64}
           />
         </div>
       </div>

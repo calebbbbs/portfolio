@@ -19,8 +19,8 @@ function Header() {
   }
   return (
     <>
-      <section className='heading justify-center bg-slate-900 dark:bg-black'>
-        <header className='container mx-auto flex flex-row'>
+      <section className='header bg-slate-900 dark:bg-black'>
+        <header className='mx-auto flex flex-row px-6'>
           <Link
             to='/'
             className='flex-row text-5xl font-bold text-slate-300 dark:text-[#9a30cf] py-6 font-poppins dark:brightness-125'
@@ -31,6 +31,7 @@ function Header() {
           <div className='container object-right'>
             <div className='flex flex-col items-end p-3'>
               {showButton === true && <ContactBtn />}
+              <p className='dark:text-white text-slate-300 text-2xl pt-4 relative'>Dark Mode{' '}</p>
               <Switch />
             </div>
           </div>

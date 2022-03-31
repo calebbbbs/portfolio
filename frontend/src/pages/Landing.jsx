@@ -11,10 +11,10 @@ function Landing() {
   return (
     <>
       {/* <Terminal /> */}
-      <div className='bg-little-rock bg-center bg-cover dark:grayscale box py-24'>
+      <div className='bg-little-rock bg-center bg-cover dark:grayscale box py-24 brightness-95'>
         <Bio />
       </div>
-      <div className='box flex justify-between items-center px-8 md:px-14 lg:px-24 w-auto bg-slate-700 dark:bg-black'>
+      <div className='box flex justify-between items-center md:px-14 lg:px-24 w-auto bg-slate-700 dark:bg-black'>
         <section className='w-full'>
           <h2 className='text-5xl pt-8 text-white text-center'>
             Put me to work 👨‍💻
