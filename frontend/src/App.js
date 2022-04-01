@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className='mx-auto dark:bg-black'>
+        <div className='mx-auto dark:bg-[#171717]'>
           <Header />
           <Routes>
             <Route path='/' element={<Landing />} />

@@ -41,7 +41,7 @@ function Landing() {
                     Email
                   </label>
                   <input
-                    className='w-full border border-input-border bg-input dark:bg-[#758087] px-4 py-4 text-white dark:text-black'
+                    className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white'
                     type='email'
                     name='yourEmail'
                   />
@@ -51,7 +51,7 @@ function Landing() {
                     Subject
                   </label>
                   <input
-                    className='w-full border border-input-border bg-input dark:bg-[#758087] px-4 py-4 text-white dark:text-black'
+                    className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white'
                     type='text'
                     name='yourSubject'
                   />
@@ -61,7 +61,7 @@ function Landing() {
                     Message
                   </label>
                   <textarea
-                    className='w-full border border-input-border bg-input dark:bg-[#758087] text-white dark:text-black px-4 py-4 h-56 resize-none'
+                    className='w-full border border-input-border bg-input dark:bg-gray-600 text-white px-4 py-4 h-56 resize-none'
                     name='yourMessage'
                   ></textarea>
                 </div>

@@ -24,7 +24,7 @@ function Portfolio() {
                   <h5 className='text-[#30B043] dark:brightness-125 dark:contrast-125 text-2xl font-medium mb-2'>
                     <strong>Wavepool</strong>
                   </h5>
-                  <p className='text-gray-700 dark:text-white text-base mb-4'>
+                  <p className='text-gray-700 dark:text-white text-base mb-6'>
                     <strong>Share music with your friends.</strong> <br />{' '}
                     <em>Know when they listen.</em> <br />
                     <br />
@@ -54,7 +54,7 @@ function Portfolio() {
                   <h5 className='text-[#30B043] dark:brightness-125 dark:contrast-125 text-2xl font-medium mb-2'>
                     <strong>Hash</strong><span className='text-[#6a4eac] font-semibold'>#51</span>
                   </h5>
-                  <p className='text-gray-700 dark:text-white text-base mb-4'>
+                  <p className='text-gray-700 dark:text-white text-base mb-6'>
                     We want to <strong><em>believe...</em></strong> Hash#51 is an app for the free exchange
                     of ideas for connecting the dots.
                   </p>
