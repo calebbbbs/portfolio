@@ -4,7 +4,7 @@ import screenshot2 from '../assets/Screenshot (3).png'
 function Portfolio() {
   return (
     <>
-      <div className='bg-secondary box flex justify-between items-center w-auto dark:bg-black dark:bg-opacity-80 pt-3'>
+      <div className='bg-secondary box flex justify-between items-center w-auto dark:bg-[#171717] pt-3'>
         <section className='w-full'>
           <h1 className='dark:text-[#9a30cf] text-input text-center text-5xl underline-offset-4'>
             Portfolio
@@ -55,7 +55,7 @@ function Portfolio() {
                     <strong>Hash</strong><span className='text-[#6a4eac] font-semibold'>#51</span>
                   </h5>
                   <p className='text-gray-700 dark:text-white text-base mb-4'>
-                    We want to believe. Hash#51 is an app for the free exchange
+                    We want to <strong><em>believe...</em></strong> Hash#51 is an app for the free exchange
                     of ideas for connecting the dots.
                   </p>
                   <button
