@@ -19,7 +19,7 @@ function Header() {
   }
   return (
     <>
-      <section className='header bg-slate-900 dark:bg-black'>
+      <section className='header bg-body dark:bg-black'>
         <header className='mx-auto flex flex-row px-6'>
           <Link
             to='/'

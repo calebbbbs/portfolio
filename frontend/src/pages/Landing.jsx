@@ -1,4 +1,5 @@
 import Bio from '../components/Bio'
+import Portfolio from '../components/Portfolio'
 // import LittleRock from '../assets/untitled-1-2.jpg';
 // import Terminal from '../components/Terminal'
 // import ContactMe from './ContactMe'
@@ -14,7 +15,8 @@ function Landing() {
       <div className='bg-little-rock bg-center bg-cover dark:grayscale box py-24 brightness-95'>
         <Bio />
       </div>
-      <div className='box flex justify-between items-center md:px-14 lg:px-24 w-auto bg-slate-700 dark:bg-black'>
+      <Portfolio />
+      <div className='box flex justify-between items-center md:px-14 lg:px-24 w-auto bg-nav dark:bg-black'>
         <section className='w-full'>
           <h2 className='text-5xl pt-8 text-white text-center'>
             Put me to work 👨‍💻

@@ -5,9 +5,9 @@ function Bio() {
   return (
     <>
       <div className='box dark:grayscale-0'>
-        <div className='box-border xs:w-12 mx-auto max-w-3xl rounded overflow-hidden shadow-lg bg-white dark:bg-black opacity-80'>
+        <div className='box-border xs:w-12 mx-auto max-w-3xl rounded-lg overflow-hidden shadow-lg bg-white dark:bg-black opacity-80'>
           <div className='px-4 py-4 flex flex-wrap'>
-            <p className='text-xl text-slate-700 dark:text-slate-400 text-right'>
+            <p className='text-xl text-slate-700 dark:text-white text-right'>
             <img src={image1} alt="TwitterProPic" className='float-left rounded-full text-wrap h-40 w-40 m-6'/>
               Hello, I am a full-stack JavaScript software engineer making a career
               change from the hospitality industry. I am passionate about creating
