@@ -14,7 +14,8 @@ module.exports = {
         'input': '#2A2A35',
       },
       backgroundImage: {
-        'little-rock': "url('assets/untitled-1-2.jpg')"
+        'little-rock': "url('assets/untitled-1-2.jpg')",
+        'bw_lr': "url('assets/untitled-1-2-bw.jpg')",
       },
     },
     FontFamily: {

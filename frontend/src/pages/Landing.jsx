@@ -12,7 +12,7 @@ function Landing() {
   return (
     <>
       {/* <Terminal /> */}
-      <div className='bg-little-rock bg-center bg-cover dark:grayscale box py-24 brightness-95'>
+      <div className='bg-bw_lr bg-center bg-cover dark:bg-bw_lr box py-24 brightness-95'>
         <Bio />
       </div>
       <Portfolio />
@@ -25,25 +25,25 @@ function Landing() {
             Contact me through any of the methods listed below.
           </p>
 
-          <form className='w-full grid lg:grid-cols-2 gap-8 lg:gap-32 my-12 justify-center' action='mailto:caleb.taylor.roberts@gmail.com' method='post' encType='text/plain'>
+          <div className='w-full grid lg:grid-cols-2 gap-8 lg:gap-32 my-12 justify-center' action='mailto:caleb.taylor.roberts@gmail.com' method='post' encType='text/plain'>
             <div className='space-y-8'>
               <div>
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Email
                 </label>
-                <input className='w-full border border-input-border bg-input dark:bg-gray-400 px-4 py-4 text-white dark:text-black' type='email' name='yourEmail'/>
+                <input className='w-full border border-input-border bg-input dark:bg-[#758087] px-4 py-4 text-white dark:text-black' type='email' name='yourEmail'/>
               </div>
               <div>
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Subject
                 </label>
-                <input className='w-full border border-input-border bg-input dark:bg-gray-400 px-4 py-4 text-white dark:text-black' type='text' name='yourSubject'/>
+                <input className='w-full border border-input-border bg-input dark:bg-[#758087] px-4 py-4 text-white dark:text-black' type='text' name='yourSubject'/>
               </div>
               <div>
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Message
                 </label>
-                <textarea className='w-full border border-input-border bg-input dark:bg-gray-400 text-white dark:text-black px-4 py-4 h-56 resize-none' name='yourMessage'></textarea>
+                <textarea className='w-full border border-input-border bg-input dark:bg-[#758087] text-white dark:text-black px-4 py-4 h-56 resize-none' name='yourMessage'></textarea>
               </div>
               <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-600 hover:shadow-emerald-600/20 hover:brightness-100 duration-300 px-6 py-3 bg-input dark:bg-[#9a30cf] dark:hover:bg-[#9a30cf] dark:hover:shadow-[#9a30cf]/40 dark:shadow-[#9a30cf]/20 shadow-lg shadow-input/40 text-white font-bold' type='submit'>
                 Send it!
@@ -65,7 +65,7 @@ function Landing() {
                 Resume
               </a>
             </div>
-          </form>
+          </div>
         </section>
       </div>
       {/* <ContactMe /> */}
