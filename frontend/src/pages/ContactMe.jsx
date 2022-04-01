@@ -16,19 +16,19 @@ function ContactMe() {
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Email
                 </label>
-                <input className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white' type='email' name='yourEmail'/>
+                <input className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white' type='email' name='Email Address '/>
               </div>
               <div>
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Subject
                 </label>
-                <input className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white' type='text' name='yourSubject'/>
+                <input className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white' type='text' name='Your Subject '/>
               </div>
               <div>
                 <label className='text-white block mb-6 text-xl font-bold'>
                   Message
                 </label>
-                <textarea className='w-full border border-input-border bg-input dark:bg-gray-600 text-white px-4 py-4 h-56 resize-none' name='yourMessage'></textarea>
+                <textarea className='w-full border border-input-border bg-input dark:bg-gray-600 text-white px-4 py-4 h-56 resize-none' name='Your Message '></textarea>
               </div>
               <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-600 hover:brightness-100 duration-300 px-6 py-3 bg-input dark:bg-[#9a30cf] dark:hover:bg-[#9a30cf] dark:hover:shadow-[#9a30cf]/50 dark:shadow-[#9a30cf]/20 shadow-lg text-white font-bold' type='submit'>
                 Send it!

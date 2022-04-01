@@ -29,7 +29,7 @@ function Landing() {
             Contact me through any of the methods listed below.
           </p>
           <div className='container mx-auto xs:justify-items-center'>
-            <div
+            <form
               className='w-full grid lg:grid-cols-2 gap-8 lg:gap-32 my-12 justify-center'
               action='mailto:caleb.taylor.roberts@gmail.com'
               method='post'
@@ -43,7 +43,7 @@ function Landing() {
                   <input
                     className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white'
                     type='email'
-                    name='yourEmail'
+                    name='Email Address '
                   />
                 </div>
                 <div>
@@ -53,7 +53,7 @@ function Landing() {
                   <input
                     className='w-full border border-input-border bg-input dark:bg-gray-600 px-4 py-4 text-white'
                     type='text'
-                    name='yourSubject'
+                    name='Your Subject '
                   />
                 </div>
                 <div>
@@ -62,7 +62,7 @@ function Landing() {
                   </label>
                   <textarea
                     className='w-full border border-input-border bg-input dark:bg-gray-600 text-white px-4 py-4 h-56 resize-none'
-                    name='yourMessage'
+                    name='Your Message '
                   ></textarea>
                 </div>
                 <button
@@ -88,7 +88,7 @@ function Landing() {
                   Resume
                 </a>
               </div>
-            </div>
+            </form>
           </div>
         </section>
       </div>
