@@ -12,7 +12,7 @@ function ContactBtn() {
   return (
     <>
       <div className='flex flex-col top-right'>
-        {showButton === true && <Link to='contact' className=' top-0 right-5 text-2xl font-bold text-slate-400' onClick={onClick} >
+        {showButton === true && <Link to='contact' className=' top-0 right-5 text-2xl font-bold text-slate-400 hover:animate-pulse' onClick={onClick} >
           Contact Me
         </Link>}
       </div>

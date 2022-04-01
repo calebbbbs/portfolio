@@ -12,7 +12,7 @@ function Landing() {
   return (
     <>
       {/* <Terminal /> */}
-      <div className='bg-bw_lr bg-center bg-cover dark:bg-bw_lr box py-24 brightness-95'>
+      <div className='bg-little-rock bg-center bg-cover dark:bg-bw_lr box py-24 brightness-95'>
         <Bio />
       </div>
       <Portfolio />

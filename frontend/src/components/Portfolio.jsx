@@ -1,9 +1,10 @@
 import screenshot from '../assets/Screenshot (2).png'
+import screenshot2 from '../assets/Screenshot (3).png'
 
 function Portfolio() {
   return (
     <>
-      <div className='bg-secondary box flex justify-between items-center w-auto dark:bg-black pt-3'>
+      <div className='bg-secondary box flex justify-between items-center w-auto dark:bg-black dark:bg-opacity-80 pt-3'>
         <section className='w-full'>
           <h1 className='dark:text-[#9a30cf] text-input text-center text-5xl underline-offset-4'>
             Portfolio
@@ -47,7 +48,7 @@ function Portfolio() {
                   href='https://github.com/SpaceExecs/Hash51'
                   onClick={() => {}}
                 >
-                  <img className='rounded-t-lg' src={screenshot} alt='' />
+                  <img className='rounded-t-lg' src={screenshot2} alt='' />
                 </a>
                 <div className='p-6'>
                   <h5 className='text-[#30B043] dark:brightness-125 dark:contrast-125 text-2xl font-medium mb-2'>
