@@ -1,6 +1,7 @@
 import Bio from '../components/Bio'
 import Portfolio from '../components/Portfolio'
 import { useState } from 'react'
+import Wavepool from '../modals/Wavepool';
 // import LittleRock from '../assets/untitled-1-2.jpg';
 // import Terminal from '../components/Terminal'
 // import ContactMe from './ContactMe'
