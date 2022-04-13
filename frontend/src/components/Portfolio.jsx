@@ -2,6 +2,7 @@ import { useState } from "react";
 import screenshot from "../assets/Screenshot (2).png";
 import screenshot2 from "../assets/Screenshot (3).png";
 import Wavepool from "../modals/Wavepool.jsx";
+import Hash51 from "../modals/Hash51";
 
 function Portfolio() {
   const [modal, setModal] = useState(false);
@@ -11,6 +12,7 @@ function Portfolio() {
     } else{
       setModal(true);
     }
+    // setModal(false);
   };
 
   return (
@@ -48,6 +50,7 @@ function Portfolio() {
                     type="button"
                     className=" inline-block px-6 py-3 bg-[#30B043] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#30B043] hover:shadow-lg focus:bg-[#30B043] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#29973a] active:shadow-lg transition duration-150 ease-in-out hover:animate-bounce"
                     onClick={() => Toggle()}
+                    onChange={() => {}}
                   >
                     Learn More
                   </button>
@@ -55,7 +58,7 @@ function Portfolio() {
                 {/* {<Wavepool show={modal} />} */}
               </div>
             </div>
-            {<Wavepool show={modal}/>}
+            {modal && <Wavepool show={modal}/>}
             <div className="flex justify-center">
               <div className="rounded-lg shadow-lg bg-white dark:bg-[#758087] max-w-2xl">
                 <a
@@ -80,12 +83,14 @@ function Portfolio() {
                   <button
                     type="button"
                     className=" inline-block px-6 py-3 bg-[#6a4eac] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#6a4eac] hover:shadow-lg focus:bg-[#6a4eac] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#3a2a5e] active:shadow-lg transition duration-150 ease-in-out hover:animate-bounce"
+                    onClick={() => Toggle()}
                   >
                     Learn More
                   </button>
                 </div>
               </div>
             </div>
+            {modal && <Hash51 show={modal}/>}
           </div>
         </section>
       </div>

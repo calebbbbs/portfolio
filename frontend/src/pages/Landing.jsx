@@ -1,14 +1,13 @@
 import Bio from '../components/Bio'
 import Portfolio from '../components/Portfolio'
-import { useState } from 'react'
-import Wavepool from '../modals/Wavepool';
+// import { useState } from 'react'
 // import LittleRock from '../assets/untitled-1-2.jpg';
 // import Terminal from '../components/Terminal'
 // import ContactMe from './ContactMe'
 // import {useState} from 'react'
 
 function Landing() {
-  const [theme, setTheme] = useState(localStorage.theme);
+  // const [theme, setTheme] = useState(localStorage.theme);
   // const [email, setEmai]
 
   return (
