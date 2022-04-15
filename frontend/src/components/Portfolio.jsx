@@ -1,20 +1,7 @@
-// import { useState } from "react";
-import screenshot from '../assets/Screenshot (2).png'
-import screenshot2 from '../assets/Screenshot (3).png'
 import Wavepool from '../modals/Wavepool.jsx'
 import Hash51 from '../modals/Hash51'
 
 function Portfolio() {
-  // const [modal, setModal] = useState(false);
-  // const Toggle = () => {
-  //   if(modal === true){
-  //     setModal(false);
-  //   } else{
-  //     setModal(true);
-  //   }
-  //   // setModal(false);
-  // };
-
   return (
     <>
       <div className='bg-secondary box flex justify-between items-center w-auto dark:bg-[#171717] pt-3'>

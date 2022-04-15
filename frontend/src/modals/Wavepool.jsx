@@ -33,19 +33,19 @@ function Wavepool() {
                 Get a suggestion from a friend, drop it in your queue, and let
                 them know if you liked it!
               </p>
-              <button
+              {!modal && <button
                 type='button'
-                className=' inline-block px-6 py-3 bg-[#30B043] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#30B043] hover:shadow-lg focus:bg-[#30B043] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#29973a] active:shadow-lg transition duration-150 ease-in-out hover:animate-bounce'
+                className=' inline-block px-6 py-3 bg-[#30B043] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#30B043] hover:shadow-lg focus:bg-[#30B043] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#29973a] active:shadow-lg transition duration-150 ease-in-out hover:animate-bounce '
                 onClick={() => Toggle()}
                 onChange={() => Toggle()}
               >
                 Learn More
-              </button>
+              </button>}
             </div>
             {/* {<Wavepool show={modal} />} */}
           </div>
         </div>
-        {modal === true && (
+        {modal && (
           <div className='flex justify-center'>
             <div className='rounded-lg shadow-lg bg-white dark:bg-[#758087] max-w-2xl'>
               {/* <a href='https://github.com/Wave-Pool/wavepool' onClick={() => {}}>
